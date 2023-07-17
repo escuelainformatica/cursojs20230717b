@@ -54,3 +54,27 @@ npm start
 ```shell
 npm install
 ```
+
+## SRP
+Responsabilidad de principio simple.
+* Separar el proyecto en diferentes partes que sean mas manejables.
+* En este caso, el codigo se separa en lo que es los datos de las operaciones (funcion).
+
+* Modelo: Se refiere a los datos.
+* Vista: Mostrar en la pantalla la visualizacion.
+
+> No necesariamente tiene que estar separado en diferentes archivos.
+
+### Modelo vista
+
+El modelo vista trabajar de la siguiente manera:
+* Hay datos
+* Y esos datos se muestran formateados en alguna parte.
+* modelo -> vista.
+* no trabaja asi: vista -> modelo.
+
+¿Por que?
+* Es mas facil de entender el codigo
+* Es mas facil de darle mantencion.
+* Es mas facil crear el codigo.
+
