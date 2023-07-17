@@ -1,0 +1,15 @@
+{
+  "name": "cursojs20230717b",
+  "version": "1.0.0",
+  "description": "* NodeJS es la herramienta que usamos para trabajar en JavaScript.\r * NPM viene incluido con NodeJS, NPM es un manejador de paquetes (proyectos)\r    * Crear un proyecto de NodeJS\r    * Instalar librerias\r    * Actualizar librerias\r    * Ejecutar el proyecto\r    * Probar el proyecto.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jorge",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "rutlib": "^1.0.3"
+  }
+}
