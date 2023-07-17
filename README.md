@@ -17,7 +17,7 @@ Eso va a crear un archivo package.json que tiene la definicion del proyecto (paq
 
 Luego de creado package.json, indicar el tipo de paquete y agregar "type": "module",
 
-## instalar liberias con el npm.
+## instalar nueva liberia con el npm.
 
 1) ir a la pagina de npm https://www.npmjs.com/
 
@@ -45,4 +45,12 @@ en package.json se va a agregar lo siguiente:
 
 ```shell
 npm start
+```
+
+## instalar librerias indicadas en package.json
+
+> Con este comando tambien se actualizan las librerias.
+
+```shell
+npm install
 ```
